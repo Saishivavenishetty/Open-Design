@@ -1,0 +1,401 @@
+.body {
+    margin: 0px;
+}
+@media (max-width:768px) {
+
+
+.bgContainer {
+    background-color: white;
+    min-height: 100vh;
+    background-size: cover;
+}
+.homeFlexing {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.circlebutton {
+    height: 12px;
+    width: 12px;
+    background-color:#8f00ff;
+    border-radius: 10px;
+    margin-top: 30px;
+    border-width: 0px;
+}
+.goBusinessHead {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+.aboutFlexing {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.eachElemntStyling {
+    color: black;
+    font-size: 10px;
+    margin-right: 10px;
+    color: grey;
+}
+.logoStyling {
+    height: 20px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.tryForFreeButton {
+    background-color:#8f00ff;
+    color: white;
+    border-width: 0px;
+    border-radius: 15px;
+    height: 25px;
+    width: 120px;
+    font-weight: bold;
+    font-family: "Roboto";
+    margin-top: 10px;
+}
+.searchStyling {
+    height: 20px;
+    width: 120px;
+    background-color: grey;
+}
+.dashboardFlexing {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.searchIconStyling {
+    height: 30px;
+    width: 120px;
+    background-color:#F8F8F8;
+    margin-top: 14px;
+
+}
+.refferalHeadStyling {
+    color: black;
+    font-size: 12px;
+    font-family: "Roboto";
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.searchStyling {
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+
+}
+.searchHereText {
+    font-size: 10px;
+    color: grey;
+}
+.iconTextFlexing {
+    display: flex;
+}
+.searchButton {
+    background-color:#8f00ff;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    padding:10px;
+    font-size: 8px;
+    font-weight: bold;
+    font-family: "Roboto";
+    margin-top: 15px;
+    margin-left: 10px;
+    height: 30px;
+}
+.silentIconStyling {
+    height: 30px;
+    width: 40px;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.nameStyling {
+    color: black;
+    font-size: 15px;
+    font-family: "Roboto";
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.adminStyling {
+
+    color: grey;
+    font-size: 10px;
+    font-family: "Roboto";
+    
+} 
+.balanaceContainer{
+    height: 60px;
+    width: 150px;
+    border-radius:5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to left,	#8A2BE2,	magenta);
+}
+.balanceIConStyling {
+    height: 25px;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+.iconTextFlexings {
+    display: flex;
+    
+}
+.moneyStyling {
+    color: white;
+    font-size: 10px;
+    font-family: "Roboto";
+
+}
+.totalStyling {
+    color: white;
+    font-size: 10px;
+    font-family: "Roboto";
+}
+.balanceFlexing {
+    display: flex;
+    justify-content: center;
+}
+.borderContainer {
+    height: 80px;
+    width:97%;
+    background-color: white;
+    border-color: grey;
+    border-style: dashed;
+    border-width: 2px;
+}
+.borderFlexing {
+    display: flex;
+    justify-content: space-around;
+}
+.serviceStyling {
+    color: grey;
+    font-size: 10px;
+    margin-right: 10px;
+
+}
+.someStyling {
+    color: darkorchid;
+    margin-right: 10px;
+    font-size: 15px;  
+}
+.borderCenter {
+    display: flex;
+    justify-content: center;
+}
+.referHeadStyling {
+    font-size: 20px;
+    font-family: "Roboto";
+    color: black;
+    margin-left: 20px;
+}
+.referralStyling {
+    color: black;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.referralBorder {
+    height: 20px;
+    width:45%;
+    background-color: white;
+    border-color: grey;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-top: 20px;
+
+}
+.referralFlexing {
+    display: flex;
+    justify-content: center;
+}
+.urlStyling {
+    color: grey;
+    font-size: 8px;
+}
+.copyButton {
+    background-image: linear-gradient(to left,	#8A2BE2,	magenta);
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    padding:10px;
+    font-size: 8px;
+    font-weight: bold;
+    font-family: "Roboto";
+     margin-left: 10px;
+     height: 30px;
+     margin-top: 15px;
+}
+.codeStyling {
+    font-family: "Roboto";
+    font-size: 10px;
+    margin-left: 10px;
+}
+.codeBorder {
+    height: 20px;
+    width:75%;
+    background-color: white;
+    border-color: grey;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.codePara {
+    color: grey;
+    font-size: 10px;
+}
+.entriesFlexing {
+    display: flex;
+    justify-content: center;
+}
+.entriesBorder {
+    border-color: skyblue;
+    border-style: solid;
+    border-width: 2px;
+    height: 20px;
+    width: 30px;
+    border-radius: 6px;
+    color: skyblue;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.entriespage {
+    color: grey;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 18px;
+     margin-top: 25px;
+}
+.searchBorder {
+    height: 20px;
+    width:45%;
+    background-color: white;
+    border-color: grey;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-top: 24px;
+    margin-left: 10px;
+    
+}
+.showStyling {
+    color: grey;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.serviceFlexing {
+    background-image: linear-gradient(to left,	#8A2BE2,	magenta);
+    height: 40px;
+    display: flex;
+    justify-content: space-around;  
+}
+.servicePage {
+    color: white;
+    font-family: "Roboto";
+    font-size: 12px;
+}
+.pranjalRow {
+    display: flex;
+    justify-content: space-around;
+}
+.showingStyling {
+    color: grey;
+    font-size: 15px;
+}
+.showingEntitiesFlexing {
+    display: flex;
+    justify-content: center;
+    
+}
+.previousButton {
+    border-color:skyblue;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 6px;
+    color: skyblue;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: white;
+    font-weight: bold;
+}
+.numberButtonStyling {
+    border-color:skyblue;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 6px;
+    color: skyblue;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: white;
+    font-weight: bold;
+}
+.numberButtonStylings {
+    border-color:skyblue;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 6px;
+    color: skyblue;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-image: linear-gradient(to left,	#8A2BE2,	magenta);
+    font-weight: bold;
+}
+.lstFlexing {
+    display: flex;
+    justify-content: space-around;
+}
+.lasthead {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+.lastPara {
+    color: frey;
+    font-size: 15px;
+    font-family: "Roboto";
+}
+.businessCenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cButton {
+    border-width: 0px;
+    border-radius: 10px;
+    color: black;
+}
+p{
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+}
+.socialMediaFlexing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.socialStyling {
+    height: 30px;
+    width: 30px;
+}
+}
